@@ -2111,7 +2111,7 @@ tests:
         INSTALLER_PROXY=true
         NETWORK_TYPE=OVNKubernetes
     test:
-    - chain: openshift-e2e-test-qe
+    - chain: openshift-e2e-test-qe-automated-release
     workflow: cucushift-installer-rehearse-baremetalds-ipi-ovn
 - as: baremetalds-ipi-ovn-ipv6-fips-f28-destructive
   cron: 26 21 21 * *
